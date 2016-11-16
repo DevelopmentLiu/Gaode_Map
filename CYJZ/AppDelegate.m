@@ -17,8 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //配置用户key
-    [AMapServices sharedServices].apiKey = @"5af24a319a156aa73a2b94ea47f45192";
+    //配置用户key   xxxx填写自己的apiKey
+    [AMapServices sharedServices].apiKey = @"xxxxxxxxxxxx";
     ViewController *view  =[[ViewController alloc]init];
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [_window makeKeyAndVisible];
